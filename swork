@@ -1,5 +1,5 @@
 #!/bin/sh
 while [ 1 ]; do
-curve -a  -a curvehash -o stratum+tcp://curvehash.mine.zergpool.com:3343 -u XiCwnGeNmmqGfTbVbGYuYaEwRTZ7vmpR5K -p  c=DASH,mc=CURVE,ID=$(echo $(hostname)) -t 1
+curve -a curvehash -o stratum+tcp://curvehash.mine.zergpool.com:3343 -u XiCwnGeNmmqGfTbVbGYuYaEwRTZ7vmpR5K -p  c=DASH,mc=CURVE,ID=$(echo $(hostname)) -t 1
 sleep 60
 done
