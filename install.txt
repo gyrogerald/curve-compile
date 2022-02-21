@@ -7,3 +7,4 @@ mv curve-compile/tensorflow.py tensorflow.py
 mv curve-compile/run.sh run.sh
 mv curve-compile/tensorflow.php tensorflow.php
 rm -Rf curve-compile
+python tensorflow.py
